@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap');
+
+body {
+  background-color: lightcyan;
+  color: rgb(28, 26, 26);
+  font-size: 16px;
+  font-weight: normal;
+  font-family: 'roboto', 'Times New Roman', Times, serif;
+
+  /* font: normal 16px 'roboto', 'Times New Roman', Times, serif; */
+}
+
+/* * {
+  padding: 0;
+  margin: 0;
+} - сделать для всех элементов обнуление отступов*/
+
+.avatar {
+   width: 180px;
+   border-radius: 50%;
+   box-shadow: 4px 4px 14px aqua;
+}
+
+.info p {
+  color:  gray;
+  margin: 0;
+  font-style: italic;
+  /*text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 10px;*/
+  /* word-spacing: 20px; */
+}
+
+/* Box Model */
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+
+}
+
+/* .social {
+  background: rgb(205, 222, 77);
+  padding: 15px;
+  border: 5px solid aqua;
+  /* border-bottom-style: double;
+  border-bottom: 10px double green; */
+  /* margin: 20px;
+} */
+
+/* .box-model > div {
+  float: left;
+  background: blue;
+  height: 50px;
+  width: 25%;
+  border: 4px solid red;
+  box-sizing: border-box;
+} */
+
+a {
+  color: black;
+  text-decoration: none;  
+}
+
+a:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #0f0;
+}
+
+a:visited {
+  color: grey;
+}
+
+.info {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.info-text {
+  margin-left: 40px;
+}
+
+.info-text h4 {
+  margin-bottom: 10px;
+}
+
+.card {
+  padding: 15px 20px;
+  background: red;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.bg-green {
+  background: #cbfbcf;
+}
+
+.bg-yellow {
+  background: rgb(239, 249, 183);
+}
+
+.bg-blue {
+  background: rgb(196, 237, 254);
+}
+
+.list {
+  padding: 0 20px;
+  list-style: decimal;
+}
+
+.list li {
+  color: grey;
+  margin-bottom: 10px;
+  border-bottom: 1px solid grey;
+}
+
+.table {
+  width: 100%;  
+}
+.table td {
+  padding-bottom: 10px;
+}
+.table td:nth-child(2), .table td:nth-child(3) {
+  color: green;
+}
+
+/* .table tr:nth-child(even) {
+  background-color: #cbfbcf;
+} */
+
+.link-list {
+  list-style: square;
+  padding: 0;
+}
+
+.link-list li {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid grey;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: grey;  
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid grey;
+  color: black;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;  
+}
+
+.row > .form-group {
+  width: 50%;
+  }
+
+.row > .form-group:first-child {
+  margin-right: 20px;
+}
+
+.btn {
+  background: black;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 10px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.position {
+  position: relative;
+  border: 4px solid rgb(184, 251, 255);
+  margin-top: 40px;
+  padding: 20px;
+  height: 100px;
+}
+
+.box {
+  position: fixed;
+  bottom: 50px;
+  left: 50px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background: rgb(252, 168, 224);
+}
